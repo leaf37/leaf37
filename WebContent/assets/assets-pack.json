@@ -1,0 +1,258 @@
+{
+    "meta": {
+        "app": "Phaser Editor",
+        "copyright": "Arian Fornaris (boniatillo.com) 2015",
+        "generated": "1457086165056",
+        "version": "1.0",
+        "url": "http://boniatillo.com"
+    },
+    "pack1": [
+        {
+            "format": "TILED_JSON",
+            "type": "tilemap",
+            "key": "level1",
+            "url": "assets/level/level1.json"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "tile",
+            "url": "assets/image/tile.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "gg",
+            "url": "assets/image/gg.png"
+        },
+        {
+            "frameHeight": 16,
+            "margin": 2,
+            "frameWidth": 16,
+            "spacing": 2,
+            "frameMax": 220,
+            "type": "spritesheet",
+            "key": "box",
+            "url": "assets/image/tile.png"
+        },
+        {
+            "frameHeight": 16,
+            "margin": 0,
+            "frameWidth": 16,
+            "spacing": 0,
+            "frameMax": -1,
+            "type": "spritesheet",
+            "key": "explo1",
+            "url": "assets/sprite/explo1.png"
+        },
+        {
+            "frameHeight": 16,
+            "margin": 0,
+            "frameWidth": 16,
+            "spacing": 0,
+            "frameMax": -1,
+            "type": "spritesheet",
+            "key": "explo2",
+            "url": "assets/sprite/explo2.png"
+        },
+        {
+            "frameHeight": 16,
+            "margin": 0,
+            "frameWidth": 16,
+            "spacing": 0,
+            "frameMax": -1,
+            "type": "spritesheet",
+            "key": "dropStar",
+            "url": "assets/sprite/dropStar.png"
+        },
+        {
+            "frameHeight": 16,
+            "margin": 0,
+            "frameWidth": 16,
+            "spacing": 0,
+            "frameMax": -1,
+            "type": "spritesheet",
+            "key": "dush1",
+            "url": "assets/sprite/dush1.png"
+        },
+        {
+            "type": "script",
+            "key": "trace",
+            "url": "js/util/trace.js"
+        },
+        {
+            "type": "script",
+            "key": "ScreenShake",
+            "url": "js/plugin/ScreenShake.js"
+        },
+        {
+            "type": "script",
+            "key": "HashMap",
+            "url": "js/util/HashMap.js"
+        },
+        {
+            "type": "script",
+            "key": "Tool",
+            "url": "js/util/Tool.js"
+        },
+        {
+            "type": "script",
+            "key": "ConstData",
+            "url": "js/util/ConstData.js"
+        },
+        {
+            "type": "script",
+            "key": "Script",
+            "url": "js/script/Script.js"
+        },
+        {
+            "type": "script",
+            "key": "TileBox",
+            "url": "js/obj/TileBox.js"
+        },
+        {
+            "type": "script",
+            "key": "TriggleCreator",
+            "url": "js/util/TriggleCreator.js"
+        },
+        {
+            "type": "script",
+            "key": "MapCreator",
+            "url": "js/util/MapCreator.js"
+        },
+        {
+            "type": "script",
+            "key": "Player1",
+            "url": "js/obj/Player1.js"
+        },
+        {
+            "type": "script",
+            "key": "BaseMonster",
+            "url": "js/base/BaseMonster.js"
+        },
+        {
+            "type": "script",
+            "key": "Monster1",
+            "url": "js/obj/Monster1.js"
+        },
+        {
+            "textureURL": "assets/sprite/p1.png",
+            "atlasURL": "assets/sprite/p1.xml",
+            "format": "TEXTURE_ATLAS_XML_STARLING",
+            "type": "atlas",
+            "key": "p1"
+        },
+        {
+            "textureURL": "assets/sprite/p2.png",
+            "atlasURL": "assets/sprite/p2.xml",
+            "format": "TEXTURE_ATLAS_XML_STARLING",
+            "type": "atlas",
+            "key": "p2"
+        },
+        {
+            "textureURL": "assets/sprite/coin.png",
+            "atlasURL": "assets/sprite/coin.xml",
+            "format": "TEXTURE_ATLAS_XML_STARLING",
+            "type": "atlas",
+            "key": "coin"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "img01",
+            "url": "assets/image/img01.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "img02",
+            "url": "assets/image/img02.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "img03",
+            "url": "assets/image/img03.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "img04",
+            "url": "assets/image/img04.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "bg1",
+            "url": "assets/image/bg1.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "bullet1",
+            "url": "assets/image/bullet/bullet1.png"
+        },
+        {
+            "type": "script",
+            "key": "Coin",
+            "url": "js/obj/Coin.js"
+        },
+        {
+            "type": "script",
+            "key": "WeaponManager",
+            "url": "js/base/WeaponManager.js"
+        },
+        {
+            "type": "script",
+            "key": "BaseWeapon",
+            "url": "js/base/BaseWeapon.js"
+        },
+        {
+            "type": "script",
+            "key": "Weapon1",
+            "url": "js/obj/Weapon1.js"
+        },
+        {
+            "textureURL": "assets/sprite/monster1.png",
+            "atlasURL": "assets/sprite/monster1.xml",
+            "format": "TEXTURE_ATLAS_XML_STARLING",
+            "type": "atlas",
+            "key": "monster1"
+        },
+        {
+            "textureURL": "assets/font/nokia16.png",
+            "atlasURL": "assets/font/nokia16.xml",
+            "type": "bitmapFont",
+            "xSpacing": 0,
+            "ySpacing": 0,
+            "key": "nokia16"
+        },
+        {
+            "type": "script",
+            "key": "Weapon2",
+            "url": "js/obj/Weapon2.js"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "bullet2",
+            "url": "assets/image/bullet/bullet2.png"
+        },
+        {
+            "type": "image",
+            "overwrite": false,
+            "key": "bullet3",
+            "url": "assets/image/bullet/bullet3.png"
+        },
+        {
+            "type": "script",
+            "key": "Weapon3",
+            "url": "js/obj/Weapon3.js"
+        },
+        {
+            "type": "script",
+            "key": "ObjectMap",
+            "url": "js/base/ObjectMap.js"
+        }
+    ]
+}
